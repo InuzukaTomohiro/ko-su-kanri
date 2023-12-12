@@ -10,6 +10,8 @@ packages = []
 python = "^3.12"
 fastapi = "^0.100.1"
 uvicorn = "^0.23.1"
+sqlalchemy = "^2.0.23"
+alembic = "^1.13.0"
 
 [build-system]
 requires = ["poetry-core"]
